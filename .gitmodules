@@ -1,0 +1,10 @@
+[submodule "Autoware"]
+	path = Autoware
+	url = https://github.com/Dokirobot-autonomous/Autoware.git
+[submodule "withous_catkin/Pangolin"]
+	path = withous_catkin/Pangolin
+	url = https://github.com/stevenlovegrove/Pangolin.git
+	branch = pangolin_updates
+[submodule "withous_catkin/orb_slam_ros"]
+	path = withous_catkin/orb_slam_ros
+	url = https://github.com/Dokirobot-autonomous/orb_slam_ros.git
