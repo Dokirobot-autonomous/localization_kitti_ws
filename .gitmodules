@@ -8,3 +8,6 @@
 [submodule "withous_catkin/orb_slam_ros"]
 	path = withous_catkin/orb_slam_ros
 	url = https://github.com/Dokirobot-autonomous/orb_slam_ros.git
+[submodule "withous_catkin/limo/src/limo"]
+	path = withous_catkin/limo/src/limo
+	url = https://github.com/johannes-graeter/limo.git
