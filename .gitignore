@@ -1,20 +1,10 @@
 # いらないフォルダ
-catkin_ws/devel/
-catkin_ws/build/
+devel
+build
 
 # いらないファイル
-catkin_ws/src/packages/orb_localizer/Vocabulary/ORBvoc.txt
-without_catkin/orb_slam_ros/Vocabulary/ORBvoc.txt
-without_catkin/Pangolin/build/
-without_catkin/orb_slam_ros/Thirdparty/DBoW2/build/
-without_catkin/orb_slam_ros/Thirdparty/g2o/build/
-without_catkin/orb_slam_ros/build/
-without_catkin/Autoware/ros/build/
-without_catkin/Autoware/ros/devel/
-without_catkin/limo/build/
-without_catkin/limo/build_limo_release/
-without_catkin/limo/devel/
-without_catkin/limo/devel_limo_release/
-without_catkin/limo/logs/
-without_catkin/limo/logs_limo_release/
+ORBvoc.txt
+build_limo_release
+devel_limo_release
+logs_limo_release
 
