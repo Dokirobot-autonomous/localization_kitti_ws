@@ -8,9 +8,6 @@
 [submodule "withous_catkin/orb_slam_ros"]
 	path = withous_catkin/orb_slam_ros
 	url = https://github.com/Dokirobot-autonomous/orb_slam_ros.git
-[submodule "withous_catkin/limo/src/limo"]
-	path = withous_catkin/limo/src/limo
-	url = https://github.com/Dokirobot-autonomous/limo.git
 [submodule "withous_catkin/limo/src/feature_tracking"]
 	path = withous_catkin/limo/src/feature_tracking
 	url = https://github.com/KIT-MRT/feature_tracking.git
@@ -26,3 +23,6 @@
 [submodule "withous_catkin/limo/src/rosinterface_handler"]
 	path = withous_catkin/limo/src/rosinterface_handler
 	url = https://github.com/KIT-MRT/rosinterface_handler.git
+[submodule "withous_catkin/limo/src/limo"]
+	path = withous_catkin/limo/src/limo
+	url = https://github.com/Dokirobot-autonomous/limo.git
