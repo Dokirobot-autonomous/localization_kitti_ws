@@ -15,7 +15,7 @@ mkdir -p limo/devel limo/build limo/src limo/logs
 cd limo
 catkin init
 cd src
-git submodule add https://github.com/Dokirobot-autonomous/limo.git
+#git submodule add https://github.com/Dokirobot-autonomous/limo.git
 
 echo "/* install Ceres (http://ceres-solver.org/installation.html) */"
 # CMake
@@ -37,8 +37,8 @@ sudo add-apt-repository ppa:bzindovic/suitesparse-bugfix-1319687
 sudo apt-get update
 sudo apt-get install libsuitesparse-dev
 # download ceres-solver
-wget http://ceres-solver.org/ceres-solver-1.14.0.tar.gz
-tar zxf ceres-solver-1.14.0.tar.gz
+#wget http://ceres-solver.org/ceres-solver-1.14.0.tar.gz
+#tar zxf ceres-solver-1.14.0.tar.gz
 mkdir ceres-bin
 cd ceres-bin
 cmake ../ceres-solver-1.14.0

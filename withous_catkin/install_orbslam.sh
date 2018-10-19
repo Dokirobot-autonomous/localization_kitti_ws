@@ -3,7 +3,7 @@
 cd `dirname $0`
 
 echo "-----　　 Setup Pangolin　　　-----"
-git submodule add -b pangolin_updates https://github.com/stevenlovegrove/Pangolin.git 
+#git submodule add -b pangolin_updates https://github.com/stevenlovegrove/Pangolin.git 
 cd Pangolin 
 mkdir build 
 cd build 
@@ -14,7 +14,7 @@ cd ../../
 
 
 echo "-----　　 Setup orb_slam_ros　　 -----"
-git submodule add https://github.com/Dokirobot-autonomous/orb_slam_ros.git 
+#git submodule add https://github.com/Dokirobot-autonomous/orb_slam_ros.git 
 echo "export ROS_PACKAGE_PATH=""$""{ROS_PACKAGE_PATH}:$(pwd)" >> ~/.bashrc
 source ~/.bashrc
 

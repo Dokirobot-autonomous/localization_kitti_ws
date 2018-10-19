@@ -3,7 +3,7 @@ devel
 build
 
 # いらないファイル
-ORBvoc.txt
+ceres-bin
 build_limo_release
 devel_limo_release
 logs_limo_release
