@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/DBoW2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/DLib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/DLoopDetector" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/g2o" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/opengv" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/ros-utils" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/sptam" vcs="Git" />
+  </component>
+</project>
