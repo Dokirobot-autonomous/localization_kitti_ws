@@ -26,24 +26,6 @@
 [submodule "withous_catkin/limo/src/limo"]
 	path = withous_catkin/limo/src/limo
 	url = https://github.com/Dokirobot-autonomous/limo.git
-[submodule "catkin_ws/src/lib/ros-utils"]
-	path = catkin_ws/src/lib/ros-utils
-	url = git@github.com:lrse/ros-utils.git
-[submodule "catkin_ws/src/lib/g2o"]
-	path = catkin_ws/src/lib/g2o
-	url = git@github.com:RainerKuemmerle/g2o.git
-[submodule "catkin_ws/src/lib/DLib"]
-	path = catkin_ws/src/lib/DLib
-	url = git@github.com:dorian3d/DLib.git
-[submodule "catkin_ws/src/lib/DBoW2"]
-	path = catkin_ws/src/lib/DBoW2
-	url = git@github.com:dorian3d/DBoW2.git
-[submodule "catkin_ws/src/lib/DLoopDetector"]
-	path = catkin_ws/src/lib/DLoopDetector
-	url = git@github.com:dorian3d/DLoopDetector.git
-[submodule "catkin_ws/src/lib/opengv"]
-	path = catkin_ws/src/lib/opengv
-	url = git@github.com:laurentkneip/opengv.git
 [submodule "catkin_ws/src/packages/sptam"]
 	path = catkin_ws/src/packages/sptam
 	url = https://github.com/Dokirobot-autonomous/sptam.git
