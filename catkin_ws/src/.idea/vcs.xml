@@ -9,5 +9,6 @@
     <mapping directory="$PROJECT_DIR$/lib/opengv" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/lib/ros-utils" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/packages/sptam" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/sptam/bow_voc" vcs="Git" />
   </component>
 </project>
