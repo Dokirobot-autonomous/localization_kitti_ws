@@ -1,6 +1,3 @@
-[submodule "Autoware"]
-	path = Autoware
-	url = https://github.com/Dokirobot-autonomous/Autoware.git
 [submodule "withous_catkin/Pangolin"]
 	path = withous_catkin/Pangolin
 	url = https://github.com/stevenlovegrove/Pangolin.git
@@ -29,3 +26,6 @@
 [submodule "catkin_ws/src/packages/sptam"]
 	path = catkin_ws/src/packages/sptam
 	url = https://github.com/Dokirobot-autonomous/sptam.git
+[submodule "catkin_ws/src/lib/ros-utils"]
+	path = catkin_ws/src/lib/ros-utils
+	url = https://github.com/lrse/ros-utils.git
