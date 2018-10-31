@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
+<<<<<<< HEAD
       <config projectName="Project" targetName="bond_generate_messages_nodejs" />
       <config projectName="Project" targetName="nav_msgs_generate_messages_py" />
       <config projectName="Project" targetName="roscpp_generate_messages_py" />
@@ -23,11 +24,43 @@
       <config projectName="Project" targetName="nodelet_generate_messages_cpp" />
       <config projectName="Project" targetName="topic_tools_generate_messages_eus" />
       <config projectName="Project" targetName="sptam_node" />
+=======
+      <config projectName="Project" targetName="bond_generate_messages_py" />
+      <config projectName="Project" targetName="std_srvs_generate_messages_lisp" />
+      <config projectName="Project" targetName="sensor_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="geometry_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="actionlib_generate_messages_lisp" />
+      <config projectName="Project" targetName="tf2_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="actionlib_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="tf_generate_messages_cpp" />
+      <config projectName="Project" targetName="std_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="std_srvs_generate_messages_cpp" />
+      <config projectName="Project" targetName="nodelet_topic_tools_gencfg" />
+      <config projectName="Project" targetName="slam_fusion" />
+      <config projectName="Project" targetName="actionlib_generate_messages_cpp" />
+      <config projectName="Project" targetName="std_srvs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="download_extra_data" />
+      <config projectName="Project" targetName="nodelet_generate_messages_eus" />
+      <config projectName="Project" targetName="nav_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="pose_to_path" />
+      <config projectName="Project" targetName="tests" />
+      <config projectName="Project" targetName="sptam_node" />
+      <config projectName="Project" targetName="roscpp_generate_messages_lisp" />
+      <config projectName="Project" targetName="pcl_msgs_generate_messages_cpp" />
+>>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
       <config projectName="Project" targetName="nav_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="actionlib_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="tf2_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="actionlib_generate_messages_py" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_nodejs" />
+<<<<<<< HEAD
+=======
+      <config projectName="Project" targetName="tf2_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="sptam" />
+      <config projectName="Project" targetName="tf_generate_messages_eus" />
+      <config projectName="Project" targetName="clean_test_results" />
+      <config projectName="Project" targetName="odom_to_pose" />
+>>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
       <config projectName="Project" targetName="actionlib_generate_messages_eus" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="roscpp_generate_messages_nodejs" />
@@ -41,6 +74,7 @@
       <config projectName="Project" targetName="pcl_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="bond_generate_messages_cpp" />
       <config projectName="Project" targetName="actionlib_msgs_generate_messages_py" />
+<<<<<<< HEAD
       <config projectName="Project" targetName="sensor_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="std_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="odom_to_pose" />
@@ -94,16 +128,84 @@
       <config projectName="Project" targetName="sensor_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="pcl_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_eus" />
+=======
+      <config projectName="Project" targetName="nodelet_generate_messages_py" />
+      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_lisp" />
+      <config projectName="Project" targetName="actionlib_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="sptam_ros" />
+      <config projectName="Project" targetName="roscpp_generate_messages_cpp" />
+      <config projectName="Project" targetName="nodelet_generate_messages_nodejs" />
+      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="pcl_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="tf2_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="geometry_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="pcl_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="tf2_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="pcl_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="bond_generate_messages_eus" />
+      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_eus" />
+      <config projectName="Project" targetName="sensor_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="roscpp_generate_messages_py" />
+      <config projectName="Project" targetName="actionlib_generate_messages_py" />
+      <config projectName="Project" targetName="nav_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="tf_generate_messages_nodejs" />
+      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="dynamic_reconfigure_gencfg" />
+      <config projectName="Project" targetName="actionlib_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="actionlib_generate_messages_nodejs" />
+      <config projectName="Project" targetName="pcl_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="std_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="std_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="sensor_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="doxygen" />
+      <config projectName="Project" targetName="topic_tools_generate_messages_eus" />
+      <config projectName="Project" targetName="std_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="tf_generate_messages_py" />
+      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_py" />
+      <config projectName="Project" targetName="geometry_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="std_srvs_generate_messages_py" />
+      <config projectName="Project" targetName="bond_generate_messages_lisp" />
+      <config projectName="Project" targetName="roscpp_generate_messages_eus" />
+      <config projectName="Project" targetName="nav_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="topic_tools_generate_messages_nodejs" />
+>>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
       <config projectName="Project" targetName="pose_to_odom" />
       <config projectName="Project" targetName="std_srvs_generate_messages_lisp" />
       <config projectName="Project" targetName="odom_to_imu" />
       <config projectName="Project" targetName="tf_generate_messages_lisp" />
+<<<<<<< HEAD
       <config projectName="Project" targetName="nodelet_generate_messages_nodejs" />
       <config projectName="Project" targetName="nav_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="roscpp_generate_messages_lisp" />
       <config projectName="Project" targetName="sptam_nodelet" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="tf_generate_messages_py" />
+=======
+      <config projectName="Project" targetName="tf2_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="std_srvs_generate_messages_eus" />
+      <config projectName="Project" targetName="pcl_ros_gencfg" />
+      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_nodejs" />
+      <config projectName="Project" targetName="geometry_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="sensor_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="bond_generate_messages_cpp" />
+      <config projectName="Project" targetName="topic_tools_generate_messages_lisp" />
+      <config projectName="Project" targetName="topic_tools_generate_messages_cpp" />
+      <config projectName="Project" targetName="std_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="nodelet_generate_messages_lisp" />
+      <config projectName="Project" targetName="bond_generate_messages_nodejs" />
+      <config projectName="Project" targetName="poseWithCovariance_to_ellipsoid" />
+      <config projectName="Project" targetName="nodelet_generate_messages_cpp" />
+      <config projectName="Project" targetName="sptam_nodelet" />
+      <config projectName="Project" targetName="nav_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="actionlib_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="run_tests" />
+      <config projectName="Project" targetName="odom_to_imu" />
+      <config projectName="Project" targetName="roscpp_generate_messages_nodejs" />
+      <config projectName="Project" targetName="topic_tools_generate_messages_py" />
+      <config projectName="Project" targetName="geometry_msgs_generate_messages_py" />
+>>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -113,6 +215,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f298bd86-b785-4798-8b67-1244271258f5" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/../../Autoware" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/DBoW2" beforeDir="false" />
@@ -149,6 +252,18 @@
       <change beforePath="$PROJECT_DIR$/../../withous_catkin/limo/.catkin_tools/profiles/limo_release/packages/tracklets_depth_ros_tool/devel_manifest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../withous_catkin/limo/.catkin_tools/profiles/limo_release/packages/tracklets_depth_ros_tool/devel_manifest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../withous_catkin/limo/.catkin_tools/profiles/limo_release/packages/util_nodes_tf2_ros_tool/devel_manifest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../withous_catkin/limo/.catkin_tools/profiles/limo_release/packages/util_nodes_tf2_ros_tool/devel_manifest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../withous_catkin/limo/.catkin_tools/profiles/limo_release/packages/viso2/devel_manifest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../withous_catkin/limo/.catkin_tools/profiles/limo_release/packages/viso2/devel_manifest.txt" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/slam_fusion/node/slam_fusion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/packages/slam_fusion/node/slam_fusion.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/sptam" beforeDir="false" afterPath="$PROJECT_DIR$/packages/sptam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/sptam/bow_voc" beforeDir="false" afterPath="$PROJECT_DIR$/packages/sptam/bow_voc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/sptam/bow_voc/DBoW2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/sptam/bow_voc/DBoW2/brief_mit_malaga_vocabulary.yml.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/sptam/bow_voc/DBoW2/brisk_mit_malaga_vocabulary.yml.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/sptam/bow_voc/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/sptam/launch/kitti.launch" beforeDir="false" afterPath="$PROJECT_DIR$/packages/sptam/launch/kitti.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../withous_catkin/limo/src/limo" beforeDir="false" afterPath="$PROJECT_DIR$/../../withous_catkin/limo/src/limo" afterDir="false" />
+>>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
       <change beforePath="$PROJECT_DIR$/../../withous_catkin/orb_slam_ros" beforeDir="false" afterPath="$PROJECT_DIR$/../../withous_catkin/orb_slam_ros" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -163,18 +278,28 @@
     <session id="-1115975296">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
+<<<<<<< HEAD
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.opened" value="7" />
+=======
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="6" />
+          <entry key="project.opened" value="10" />
+>>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cpp" value="15" />
+<<<<<<< HEAD
           <entry key="h" value="2" />
+=======
+          <entry key="h" value="3" />
+>>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
           <entry key="hpp" value="5" />
           <entry key="launch" value="1" />
           <entry key="txt" value="1" />
@@ -183,13 +308,21 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="1" />
+<<<<<<< HEAD
           <entry key="ObjectiveC" value="22" />
+=======
+          <entry key="ObjectiveC" value="23" />
+>>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+<<<<<<< HEAD
           <entry key="cpp" value="2911" />
+=======
+          <entry key="cpp" value="4092" />
+>>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
           <entry key="txt" value="11" />
         </counts>
       </usages-collector>
@@ -197,7 +330,11 @@
         <counts>
           <entry key="CMakeLists.txt" value="11" />
           <entry key="Doxygen file" value="1" />
+<<<<<<< HEAD
           <entry key="ObjectiveC" value="2910" />
+=======
+          <entry key="ObjectiveC" value="4091" />
+>>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
         </counts>
       </usages-collector>
     </session>
@@ -207,10 +344,24 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/packages/slam_fusion/node/slam_fusion.cpp">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="285">
               <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
+=======
+            <state relative-caret-position="708">
+              <caret line="164" column="29" selection-start-line="164" selection-start-column="29" selection-end-line="164" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#1298#2073#0" />
+                <element signature="e#2075#2805#0" />
+                <element signature="e#2807#3475#0" />
+                <element signature="e#3477#3965#0" />
+                <element signature="e#3967#4026#0" />
+                <element signature="e#4029#4056#0" />
+                <element signature="e#4029#4456#0" />
+>>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
               </folding>
             </state>
           </provider>
@@ -256,9 +407,15 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds">
     <option name="x" value="-170" />
     <option name="y" value="205" />
+=======
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+>>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
     <option name="width" value="1248" />
     <option name="height" value="1056" />
   </component>
@@ -278,14 +435,21 @@
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
+<<<<<<< HEAD
               <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="slam_fusion" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="packages" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
@@ -299,6 +463,8 @@
               <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="packages" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
               <item name="slam_fusion" type="462c0819:PsiDirectoryNode" />
               <item name="node" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -968,12 +1134,21 @@
       <workItem from="1540782747957" duration="7816000" />
       <workItem from="1540798519768" duration="6000" />
       <workItem from="1540798551008" duration="2496000" />
+<<<<<<< HEAD
       <workItem from="1540857856231" duration="6960000" />
       <workItem from="1540897324354" duration="319000" />
+=======
+      <workItem from="1540857856231" duration="7563000" />
+      <workItem from="1540896630324" duration="599000" />
+      <workItem from="1540897865285" duration="2266000" />
+      <workItem from="1540900510421" duration="4959000" />
+      <workItem from="1540947275511" duration="1915000" />
+>>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="22324000" />
   </component>
   <component name="ToolWindowManager">
@@ -981,6 +1156,15 @@
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2737105" />
+=======
+    <option name="totallyTimeSpent" value="32347000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="24" width="1248" height="1416" extended-state="4" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28868553" />
+>>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -991,7 +1175,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32996893" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.32919255" />
@@ -1027,16 +1211,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/packages/slam_fusion/node/slam_fusion.cpp</url>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../withous_catkin/limo/src/limo/demo_keyframe_bundle_adjustment_meta/launch/kitti_standalone.launch">
@@ -1114,50 +1288,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/sptam/src/ros/stereo_driver.cpp">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="282">
           <caret line="161" column="25" lean-forward="true" selection-start-line="161" selection-start-column="25" selection-end-line="161" selection-end-column="25" />
           <folding>
             <element signature="e#1156#1184#0" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="72">
+          <caret line="147" column="3" selection-start-line="147" selection-start-column="3" selection-end-line="147" selection-end-column="3" />
+>>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/sptam/src/sptam/g2o_driver.cpp">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="843">
           <caret line="114" column="44" selection-start-line="114" selection-start-column="44" selection-end-line="114" selection-end-column="44" />
           <folding>
             <element signature="e#1156#1181#0" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="1206">
+          <caret line="114" column="44" selection-start-line="114" selection-start-column="44" selection-end-line="114" selection-end-column="44" />
+>>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/sptam/src/sptam/StereoFrame.cpp">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="162">
           <caret line="38" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="e#1156#1182#0" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="570">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+>>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/sptam/src/sptam/types_sba_extension.cpp">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="105">
+=======
+        <state relative-caret-position="510">
+>>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
           <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/sptam/src/sptam/CameraParameters.hpp">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="402">
+=======
+        <state relative-caret-position="705">
+>>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
           <caret line="47" column="43" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/sptam/src/sptam/sptam.cpp">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="843">
           <caret line="75" column="58" selection-start-line="75" selection-start-column="58" selection-end-line="75" selection-end-column="58" />
           <folding>
@@ -1172,6 +1370,33 @@
           <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+=======
+        <state relative-caret-position="1125">
+          <caret line="75" column="58" selection-start-line="75" selection-start-column="58" selection-end-line="75" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/ros/kinetic/include/geometry_msgs/PoseWithCovarianceStamped.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/slam_fusion/node/slam_fusion.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="708">
+          <caret line="164" column="29" selection-start-line="164" selection-start-column="29" selection-end-line="164" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#1298#2073#0" />
+            <element signature="e#2075#2805#0" />
+            <element signature="e#2807#3475#0" />
+            <element signature="e#3477#3965#0" />
+            <element signature="e#3967#4026#0" />
+            <element signature="e#4029#4056#0" />
+            <element signature="e#4029#4456#0" />
+>>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
           </folding>
         </state>
       </provider>
