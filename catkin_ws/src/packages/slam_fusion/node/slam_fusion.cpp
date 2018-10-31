@@ -11,7 +11,7 @@
 #include <nav_msgs/Path.h>
 
 
-#define POSE_TOPIC_NAMES "ndt_pose,estimate/active_path,camera_pose"
+#define POSE_TOPIC_NAMES "sptam/robot/pose,estimate/active_path,camera_pose"
 
 class SlamFusion {
 
