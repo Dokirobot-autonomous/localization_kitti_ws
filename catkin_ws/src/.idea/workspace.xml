@@ -5,13 +5,12 @@
       <config projectName="Project" targetName="bond_generate_messages_py" />
       <config projectName="Project" targetName="std_srvs_generate_messages_lisp" />
       <config projectName="Project" targetName="sensor_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="geometry_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="actionlib_generate_messages_lisp" />
+      <config projectName="Project" targetName="pose_to_path" />
       <config projectName="Project" targetName="tf2_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="actionlib_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="tf_generate_messages_cpp" />
       <config projectName="Project" targetName="std_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="std_srvs_generate_messages_cpp" />
       <config projectName="Project" targetName="nodelet_topic_tools_gencfg" />
       <config projectName="Project" targetName="slam_fusion" />
       <config projectName="Project" targetName="actionlib_generate_messages_cpp" />
@@ -19,50 +18,52 @@
       <config projectName="Project" targetName="download_extra_data" />
       <config projectName="Project" targetName="nodelet_generate_messages_eus" />
       <config projectName="Project" targetName="nav_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="pose_to_path" />
+      <config projectName="Project" targetName="bond_generate_messages_lisp" />
+      <config projectName="Project" targetName="actionlib_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="tests" />
       <config projectName="Project" targetName="sptam_node" />
+      <config projectName="Project" targetName="geometry_msgs_generate_messages_py" />
       <config projectName="Project" targetName="roscpp_generate_messages_lisp" />
       <config projectName="Project" targetName="pcl_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="nav_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="std_srvs_generate_messages_eus" />
       <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_cpp" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="tf2_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="sptam" />
+      <config projectName="Project" targetName="roscpp_generate_messages_py" />
       <config projectName="Project" targetName="tf_generate_messages_eus" />
       <config projectName="Project" targetName="clean_test_results" />
+      <config projectName="Project" targetName="topic_tools_generate_messages_lisp" />
       <config projectName="Project" targetName="odom_to_pose" />
       <config projectName="Project" targetName="actionlib_generate_messages_eus" />
       <config projectName="Project" targetName="actionlib_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="nodelet_generate_messages_py" />
+      <config projectName="Project" targetName="pcl_msgs_generate_messages_py" />
       <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_lisp" />
       <config projectName="Project" targetName="actionlib_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="sptam_ros" />
       <config projectName="Project" targetName="roscpp_generate_messages_cpp" />
-      <config projectName="Project" targetName="nodelet_generate_messages_nodejs" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="pcl_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="tf2_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="pcl_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="tf2_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="pcl_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="bond_generate_messages_eus" />
+      <config projectName="Project" targetName="sptam" />
+      <config projectName="Project" targetName="sptam_nodelet" />
       <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_eus" />
       <config projectName="Project" targetName="sensor_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="roscpp_generate_messages_py" />
       <config projectName="Project" targetName="actionlib_generate_messages_py" />
       <config projectName="Project" targetName="nav_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="tf_generate_messages_nodejs" />
+      <config projectName="Project" targetName="std_srvs_generate_messages_cpp" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_py" />
       <config projectName="Project" targetName="dynamic_reconfigure_gencfg" />
-      <config projectName="Project" targetName="actionlib_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="bond_generate_messages_nodejs" />
+      <config projectName="Project" targetName="tf_generate_messages_nodejs" />
       <config projectName="Project" targetName="actionlib_generate_messages_nodejs" />
       <config projectName="Project" targetName="pcl_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="std_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="std_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="sensor_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="doxygen" />
       <config projectName="Project" targetName="topic_tools_generate_messages_eus" />
       <config projectName="Project" targetName="std_msgs_generate_messages_py" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_eus" />
@@ -71,35 +72,34 @@
       <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_py" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="std_srvs_generate_messages_py" />
-      <config projectName="Project" targetName="bond_generate_messages_lisp" />
+      <config projectName="Project" targetName="tf2_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="roscpp_generate_messages_eus" />
       <config projectName="Project" targetName="nav_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="topic_tools_generate_messages_nodejs" />
-      <config projectName="Project" targetName="pose_to_odom" />
+      <config projectName="Project" targetName="odom_to_imu" />
       <config projectName="Project" targetName="sensor_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="tf_generate_messages_lisp" />
       <config projectName="Project" targetName="tf2_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="std_srvs_generate_messages_eus" />
+      <config projectName="Project" targetName="doxygen" />
       <config projectName="Project" targetName="pcl_ros_gencfg" />
       <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_nodejs" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="sensor_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="bond_generate_messages_cpp" />
-      <config projectName="Project" targetName="topic_tools_generate_messages_lisp" />
+      <config projectName="Project" targetName="geometry_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="topic_tools_generate_messages_cpp" />
       <config projectName="Project" targetName="std_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="nodelet_generate_messages_lisp" />
-      <config projectName="Project" targetName="bond_generate_messages_nodejs" />
       <config projectName="Project" targetName="poseWithCovariance_to_ellipsoid" />
       <config projectName="Project" targetName="nodelet_generate_messages_cpp" />
-      <config projectName="Project" targetName="sptam_nodelet" />
+      <config projectName="Project" targetName="nodelet_generate_messages_nodejs" />
       <config projectName="Project" targetName="nav_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="actionlib_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="run_tests" />
-      <config projectName="Project" targetName="odom_to_imu" />
+      <config projectName="Project" targetName="nodelet_generate_messages_py" />
       <config projectName="Project" targetName="roscpp_generate_messages_nodejs" />
       <config projectName="Project" targetName="topic_tools_generate_messages_py" />
-      <config projectName="Project" targetName="geometry_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="pose_to_odom" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -110,14 +110,12 @@
   <component name="ChangeListManager">
     <list default="true" id="f298bd86-b785-4798-8b67-1244271258f5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/slam_fusion/node/slam_fusion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/packages/slam_fusion/node/slam_fusion.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/sptam" beforeDir="false" afterPath="$PROJECT_DIR$/packages/sptam" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/sptam/bow_voc" beforeDir="false" afterPath="$PROJECT_DIR$/packages/sptam/bow_voc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/sptam/bow_voc/DBoW2/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/sptam/bow_voc/DBoW2/brief_mit_malaga_vocabulary.yml.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/sptam/bow_voc/DBoW2/brisk_mit_malaga_vocabulary.yml.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/sptam/bow_voc/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/sptam/launch/kitti.launch" beforeDir="false" afterPath="$PROJECT_DIR$/packages/sptam/launch/kitti.launch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../withous_catkin/limo/src/limo" beforeDir="false" afterPath="$PROJECT_DIR$/../../withous_catkin/limo/src/limo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../withous_catkin/orb_slam_ros" beforeDir="false" afterPath="$PROJECT_DIR$/../../withous_catkin/orb_slam_ros" afterDir="false" />
     </list>
@@ -133,12 +131,13 @@
     <session id="-1115975296">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="6" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -177,8 +176,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/packages/slam_fusion/node/slam_fusion.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="708">
-              <caret line="164" column="29" selection-start-line="164" selection-start-column="29" selection-end-line="164" selection-end-column="29" />
+            <state relative-caret-position="582">
+              <caret line="187" selection-start-line="187" selection-end-line="187" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
                 <element signature="e#1298#2073#0" />
@@ -234,7 +233,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="65" />
+    <option name="x" value="1312" />
     <option name="y" value="24" />
     <option name="width" value="1248" />
     <option name="height" value="1416" />
@@ -245,7 +244,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -275,6 +273,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -917,18 +916,18 @@
       <workItem from="1540896630324" duration="599000" />
       <workItem from="1540897865285" duration="2266000" />
       <workItem from="1540900510421" duration="4959000" />
-      <workItem from="1540947275511" duration="1915000" />
+      <workItem from="1540947275511" duration="3491000" />
+      <workItem from="1541401218730" duration="9000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32347000" />
+    <option name="totallyTimeSpent" value="33932000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1248" height="1416" extended-state="4" />
-    <editor active="true" />
+    <frame x="75" y="24" width="1248" height="1416" extended-state="4" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28868553" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2936772" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1101,8 +1100,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/slam_fusion/node/slam_fusion.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="708">
-          <caret line="164" column="29" selection-start-line="164" selection-start-column="29" selection-end-line="164" selection-end-column="29" />
+        <state relative-caret-position="582">
+          <caret line="187" selection-start-line="187" selection-end-line="187" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
             <element signature="e#1298#2073#0" />
