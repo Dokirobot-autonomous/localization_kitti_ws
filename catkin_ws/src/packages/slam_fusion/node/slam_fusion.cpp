@@ -14,10 +14,7 @@
 
 
 #define POSE_TOPIC_NAMES "sptam/robot/pose,estimate/active_path,camera_pose"
-<<<<<<< HEAD
-=======
 #define GROUNDTRUTH_TOPIC_NAME "/groundtruth_pose/pose"
->>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
 
 class SlamFusion {
 

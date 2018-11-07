@@ -3,6 +3,7 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <config projectName="Project" targetName="bond_generate_messages_nodejs" />
       <config projectName="Project" targetName="nav_msgs_generate_messages_py" />
       <config projectName="Project" targetName="roscpp_generate_messages_py" />
@@ -41,18 +42,41 @@
       <config projectName="Project" targetName="std_srvs_generate_messages_nodejs" />
       <config projectName="Project" targetName="download_extra_data" />
       <config projectName="Project" targetName="nodelet_generate_messages_eus" />
+=======
+      <config projectName="Project" targetName="bond_generate_messages_nodejs" />
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
       <config projectName="Project" targetName="nav_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="roscpp_generate_messages_py" />
+      <config projectName="Project" targetName="tf2_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="pose_to_path" />
-      <config projectName="Project" targetName="tests" />
+      <config projectName="Project" targetName="actionlib_generate_messages_nodejs" />
+      <config projectName="Project" targetName="clean_test_results" />
+      <config projectName="Project" targetName="nav_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="geometry_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="geometry_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="bond_generate_messages_py" />
+      <config projectName="Project" targetName="poseWithCovariance_to_ellipsoid" />
+      <config projectName="Project" targetName="dynamic_reconfigure_gencfg" />
+      <config projectName="Project" targetName="pcl_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="actionlib_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="tf2_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="nodelet_generate_messages_cpp" />
+      <config projectName="Project" targetName="topic_tools_generate_messages_eus" />
       <config projectName="Project" targetName="sptam_node" />
+<<<<<<< HEAD
       <config projectName="Project" targetName="roscpp_generate_messages_lisp" />
       <config projectName="Project" targetName="pcl_msgs_generate_messages_cpp" />
 >>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
+=======
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
       <config projectName="Project" targetName="nav_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="actionlib_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="tf2_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="actionlib_generate_messages_py" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_nodejs" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
       <config projectName="Project" targetName="tf2_msgs_generate_messages_py" />
@@ -61,12 +85,18 @@
       <config projectName="Project" targetName="clean_test_results" />
       <config projectName="Project" targetName="odom_to_pose" />
 >>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
+=======
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
       <config projectName="Project" targetName="actionlib_generate_messages_eus" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="roscpp_generate_messages_nodejs" />
       <config projectName="Project" targetName="download_extra_data" />
       <config projectName="Project" targetName="std_srvs_generate_messages_cpp" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_py" />
+<<<<<<< HEAD
+=======
+      <config projectName="Project" targetName="kitti_player" />
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
       <config projectName="Project" targetName="pcl_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="actionlib_generate_messages_lisp" />
@@ -75,6 +105,9 @@
       <config projectName="Project" targetName="bond_generate_messages_cpp" />
       <config projectName="Project" targetName="actionlib_msgs_generate_messages_py" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
       <config projectName="Project" targetName="sensor_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="std_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="odom_to_pose" />
@@ -82,6 +115,7 @@
       <config projectName="Project" targetName="topic_tools_generate_messages_py" />
       <config projectName="Project" targetName="actionlib_generate_messages_cpp" />
       <config projectName="Project" targetName="tf2_msgs_generate_messages_py" />
+<<<<<<< HEAD
       <config projectName="Project" targetName="gmock_main" />
       <config projectName="Project" targetName="gtest_main" />
       <config projectName="Project" targetName="std_srvs_generate_messages_eus" />
@@ -141,32 +175,38 @@
       <config projectName="Project" targetName="geometry_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="pcl_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="tf2_msgs_generate_messages_cpp" />
+=======
+      <config projectName="Project" targetName="std_srvs_generate_messages_eus" />
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
       <config projectName="Project" targetName="pcl_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="bond_generate_messages_eus" />
-      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_eus" />
-      <config projectName="Project" targetName="sensor_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="roscpp_generate_messages_py" />
-      <config projectName="Project" targetName="actionlib_generate_messages_py" />
-      <config projectName="Project" targetName="nav_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="sensor_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="kitti_player_gencfg" />
+      <config projectName="Project" targetName="sptam_ros" />
+      <config projectName="Project" targetName="dummy_kitti_player" />
       <config projectName="Project" targetName="tf_generate_messages_nodejs" />
-      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="dynamic_reconfigure_gencfg" />
-      <config projectName="Project" targetName="actionlib_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="actionlib_generate_messages_nodejs" />
-      <config projectName="Project" targetName="pcl_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="std_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_nodejs" />
+      <config projectName="Project" targetName="tf_generate_messages_eus" />
+      <config projectName="Project" targetName="topic_tools_generate_messages_nodejs" />
+      <config projectName="Project" targetName="nav_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="sensor_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="std_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="sptam" />
+      <config projectName="Project" targetName="std_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="slam_fusion" />
+      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="sensor_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="doxygen" />
-      <config projectName="Project" targetName="topic_tools_generate_messages_eus" />
+      <config projectName="Project" targetName="std_srvs_generate_messages_nodejs" />
       <config projectName="Project" targetName="std_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="tf_generate_messages_py" />
-      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_py" />
-      <config projectName="Project" targetName="geometry_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="tf_generate_messages_cpp" />
+      <config projectName="Project" targetName="roscpp_generate_messages_eus" />
+      <config projectName="Project" targetName="doxygen" />
+      <config projectName="Project" targetName="bond_generate_messages_eus" />
+      <config projectName="Project" targetName="tests" />
+      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_lisp" />
+      <config projectName="Project" targetName="std_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="std_srvs_generate_messages_py" />
       <config projectName="Project" targetName="bond_generate_messages_lisp" />
+<<<<<<< HEAD
       <config projectName="Project" targetName="roscpp_generate_messages_eus" />
       <config projectName="Project" targetName="nav_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="topic_tools_generate_messages_nodejs" />
@@ -185,27 +225,40 @@
 =======
       <config projectName="Project" targetName="tf2_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="std_srvs_generate_messages_eus" />
+=======
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
       <config projectName="Project" targetName="pcl_ros_gencfg" />
-      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_nodejs" />
-      <config projectName="Project" targetName="geometry_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="sensor_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="bond_generate_messages_cpp" />
-      <config projectName="Project" targetName="topic_tools_generate_messages_lisp" />
-      <config projectName="Project" targetName="topic_tools_generate_messages_cpp" />
-      <config projectName="Project" targetName="std_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="nodelet_generate_messages_lisp" />
-      <config projectName="Project" targetName="bond_generate_messages_nodejs" />
-      <config projectName="Project" targetName="poseWithCovariance_to_ellipsoid" />
-      <config projectName="Project" targetName="nodelet_generate_messages_cpp" />
-      <config projectName="Project" targetName="sptam_nodelet" />
-      <config projectName="Project" targetName="nav_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="actionlib_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_cpp" />
       <config projectName="Project" targetName="run_tests" />
+      <config projectName="Project" targetName="roscpp_generate_messages_cpp" />
+      <config projectName="Project" targetName="nodelet_generate_messages_py" />
+      <config projectName="Project" targetName="nodelet_generate_messages_eus" />
+      <config projectName="Project" targetName="nodelet_generate_messages_lisp" />
+      <config projectName="Project" targetName="nodelet_topic_tools_gencfg" />
+      <config projectName="Project" targetName="actionlib_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="topic_tools_generate_messages_cpp" />
+      <config projectName="Project" targetName="topic_tools_generate_messages_lisp" />
+      <config projectName="Project" targetName="tf2_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="sensor_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="pcl_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_eus" />
+      <config projectName="Project" targetName="pose_to_odom" />
+      <config projectName="Project" targetName="std_srvs_generate_messages_lisp" />
       <config projectName="Project" targetName="odom_to_imu" />
+<<<<<<< HEAD
       <config projectName="Project" targetName="roscpp_generate_messages_nodejs" />
       <config projectName="Project" targetName="topic_tools_generate_messages_py" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_py" />
 >>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
+=======
+      <config projectName="Project" targetName="tf_generate_messages_lisp" />
+      <config projectName="Project" targetName="nodelet_generate_messages_nodejs" />
+      <config projectName="Project" targetName="nav_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="roscpp_generate_messages_lisp" />
+      <config projectName="Project" targetName="sptam_nodelet" />
+      <config projectName="Project" targetName="geometry_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="tf_generate_messages_py" />
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -254,14 +307,14 @@
       <change beforePath="$PROJECT_DIR$/../../withous_catkin/limo/.catkin_tools/profiles/limo_release/packages/viso2/devel_manifest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../withous_catkin/limo/.catkin_tools/profiles/limo_release/packages/viso2/devel_manifest.txt" afterDir="false" />
 =======
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/slam_fusion/node/slam_fusion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/packages/slam_fusion/node/slam_fusion.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/kitti_player/src/kitti_player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/packages/kitti_player/src/kitti_player.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/kitti_player/src/kitti_player_ground_pose.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/sptam" beforeDir="false" afterPath="$PROJECT_DIR$/packages/sptam" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/sptam/bow_voc" beforeDir="false" afterPath="$PROJECT_DIR$/packages/sptam/bow_voc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/sptam/bow_voc/DBoW2/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/sptam/bow_voc/DBoW2/brief_mit_malaga_vocabulary.yml.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/sptam/bow_voc/DBoW2/brisk_mit_malaga_vocabulary.yml.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/sptam/bow_voc/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/sptam/launch/kitti.launch" beforeDir="false" afterPath="$PROJECT_DIR$/packages/sptam/launch/kitti.launch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../withous_catkin/limo/src/limo" beforeDir="false" afterPath="$PROJECT_DIR$/../../withous_catkin/limo/src/limo" afterDir="false" />
 >>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
       <change beforePath="$PROJECT_DIR$/../../withous_catkin/orb_slam_ros" beforeDir="false" afterPath="$PROJECT_DIR$/../../withous_catkin/orb_slam_ros" afterDir="false" />
@@ -278,8 +331,9 @@
     <session id="-1115975296">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="2" />
+<<<<<<< HEAD
           <entry key="project.open.time.1" value="1" />
 <<<<<<< HEAD
           <entry key="project.open.time.3" value="1" />
@@ -290,39 +344,60 @@
           <entry key="project.open.time.8" value="6" />
           <entry key="project.opened" value="10" />
 >>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
+=======
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="6" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="14" />
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+<<<<<<< HEAD
           <entry key="cpp" value="15" />
 <<<<<<< HEAD
           <entry key="h" value="2" />
 =======
+=======
+          <entry key="cpp" value="16" />
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
           <entry key="h" value="3" />
 >>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
           <entry key="hpp" value="5" />
           <entry key="launch" value="1" />
-          <entry key="txt" value="1" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+<<<<<<< HEAD
           <entry key="CMakeLists.txt" value="1" />
 <<<<<<< HEAD
           <entry key="ObjectiveC" value="22" />
 =======
           <entry key="ObjectiveC" value="23" />
 >>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
+=======
+          <entry key="CMakeLists.txt" value="2" />
+          <entry key="ObjectiveC" value="24" />
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
 <<<<<<< HEAD
+<<<<<<< HEAD
           <entry key="cpp" value="2911" />
 =======
           <entry key="cpp" value="4092" />
 >>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
+=======
+          <entry key="cpp" value="5194" />
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
           <entry key="txt" value="11" />
         </counts>
       </usages-collector>
@@ -331,10 +406,14 @@
           <entry key="CMakeLists.txt" value="11" />
           <entry key="Doxygen file" value="1" />
 <<<<<<< HEAD
+<<<<<<< HEAD
           <entry key="ObjectiveC" value="2910" />
 =======
           <entry key="ObjectiveC" value="4091" />
 >>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
+=======
+          <entry key="ObjectiveC" value="5193" />
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
         </counts>
       </usages-collector>
     </session>
@@ -342,8 +421,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/packages/slam_fusion/node/slam_fusion.cpp">
+        <entry file="file://$PROJECT_DIR$/packages/kitti_player/src/kitti_player.cpp">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
             <state relative-caret-position="285">
               <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
@@ -362,7 +442,27 @@
                 <element signature="e#4029#4056#0" />
                 <element signature="e#4029#4456#0" />
 >>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
+=======
+            <state relative-caret-position="468">
+              <caret line="157" column="6" selection-start-line="157" selection-start-column="6" selection-end-line="157" selection-end-column="6" />
+              <folding>
+                <element signature="e#828#847#0" expanded="true" />
+                <element signature="e#4907#8415#0" />
+                <element signature="e#10324#11809#0" />
+                <element signature="e#11811#14173#0" />
+                <element signature="e#14219#14260#1" />
+                <element signature="e#14263#16555#0" />
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/packages/kitti_player/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -382,7 +482,18 @@
       <find>stereoCameraModel</find>
       <find>stereo_baseline_</find>
       <find>baseline</find>
+      <find>color</find>
+      <find>full_filename_groundtruth</find>
+      <find>full_filename_g</find>
+      <find>tr</find>
+      <find>entries_played;</find>
+      <find>entries_played</find>
+      <find>groundtruth</find>
+      <find>ROS_INFO</find>
     </findStrings>
+    <replaceStrings>
+      <replace>P</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -398,6 +509,7 @@
         <option value="$PROJECT_DIR$/packages/sptam/src/sptam/types_sba_extension.cpp" />
         <option value="$PROJECT_DIR$/packages/sptam/src/ros/stereo_driver.cpp" />
         <option value="$PROJECT_DIR$/packages/slam_fusion/node/slam_fusion.cpp" />
+        <option value="$PROJECT_DIR$/packages/kitti_player/src/kitti_player.cpp" />
       </list>
     </option>
   </component>
@@ -413,7 +525,7 @@
     <option name="y" value="205" />
 =======
   <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="65" />
+    <option name="x" value="1312" />
     <option name="y" value="24" />
 >>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
     <option name="width" value="1248" />
@@ -456,6 +568,19 @@
               <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="kitti_player" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="kitti_player" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
               <item name="slam_fusion" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -467,6 +592,12 @@
 >>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
               <item name="slam_fusion" type="462c0819:PsiDirectoryNode" />
               <item name="node" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="sptam" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -593,6 +724,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dummy_kitti_player" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="dummy_kitti_player" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="dynamic_reconfigure_gencfg" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="dynamic_reconfigure_gencfg" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -648,11 +784,16 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="gmock" CONFIG_NAME="Debug">
+=======
+    <configuration name="kitti_player" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="kitti_player" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="kitti_player">
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="gmock_main" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -664,6 +805,9 @@
       </method>
     </configuration>
     <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
+=======
+    <configuration name="kitti_player_gencfg" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="kitti_player_gencfg" CONFIG_NAME="Debug">
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -1065,6 +1209,7 @@
       <item itemvalue="Application.tf2_msgs_generate_messages_lisp" />
       <item itemvalue="Application.tf2_msgs_generate_messages_nodejs" />
       <item itemvalue="Application.tf2_msgs_generate_messages_py" />
+      <item itemvalue="Application.dummy_kitti_player" />
       <item itemvalue="Application.sensor_msgs_generate_messages_cpp" />
       <item itemvalue="Application.sensor_msgs_generate_messages_eus" />
       <item itemvalue="Application.sensor_msgs_generate_messages_lisp" />
@@ -1087,6 +1232,8 @@
       <item itemvalue="Application.dynamic_reconfigure_generate_messages_lisp" />
       <item itemvalue="Application.dynamic_reconfigure_generate_messages_nodejs" />
       <item itemvalue="Application.dynamic_reconfigure_generate_messages_py" />
+      <item itemvalue="Application.kitti_player" />
+      <item itemvalue="Application.kitti_player_gencfg" />
       <item itemvalue="Application.nodelet_generate_messages_cpp" />
       <item itemvalue="Application.nodelet_generate_messages_eus" />
       <item itemvalue="Application.nodelet_generate_messages_lisp" />
@@ -1142,12 +1289,21 @@
       <workItem from="1540896630324" duration="599000" />
       <workItem from="1540897865285" duration="2266000" />
       <workItem from="1540900510421" duration="4959000" />
+<<<<<<< HEAD
       <workItem from="1540947275511" duration="1915000" />
 >>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
+=======
+      <workItem from="1540947275511" duration="3491000" />
+      <workItem from="1541401218730" duration="9000" />
+      <workItem from="1541545175997" duration="129000" />
+      <workItem from="1541545329972" duration="18000" />
+      <workItem from="1541545369031" duration="4285000" />
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="22324000" />
   </component>
@@ -1158,13 +1314,20 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2737105" />
 =======
     <option name="totallyTimeSpent" value="32347000" />
+=======
+    <option name="totallyTimeSpent" value="38364000" />
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1248" height="1416" extended-state="4" />
+    <frame x="1312" y="24" width="1248" height="1416" extended-state="4" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28868553" />
 >>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.108153075" />
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1175,10 +1338,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32919255" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33540374" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CMake" order="11" weight="0.32919255" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.32978722" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1383,12 +1546,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/packages/kitti_player/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/packages/slam_fusion/node/slam_fusion.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="708">
-          <caret line="164" column="29" selection-start-line="164" selection-start-column="29" selection-end-line="164" selection-end-column="29" />
+        <state relative-caret-position="335">
+          <caret line="133" column="33" lean-forward="true" selection-start-line="133" selection-start-column="33" selection-end-line="133" selection-end-column="33" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+<<<<<<< HEAD
             <element signature="e#1298#2073#0" />
             <element signature="e#2075#2805#0" />
             <element signature="e#2807#3475#0" />
@@ -1397,6 +1568,23 @@
             <element signature="e#4029#4056#0" />
             <element signature="e#4029#4456#0" />
 >>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
+=======
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/kitti_player/src/kitti_player.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="157" column="6" selection-start-line="157" selection-start-column="6" selection-end-line="157" selection-end-column="6" />
+          <folding>
+            <element signature="e#828#847#0" expanded="true" />
+            <element signature="e#4907#8415#0" />
+            <element signature="e#10324#11809#0" />
+            <element signature="e#11811#14173#0" />
+            <element signature="e#14219#14260#1" />
+            <element signature="e#14263#16555#0" />
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
           </folding>
         </state>
       </provider>

@@ -14,3 +14,6 @@
 [submodule "catkin_ws/src/lib/ros-utils"]
 	path = catkin_ws/src/lib/ros-utils
 	url = https://github.com/lrse/ros-utils.git
+[submodule "Autoware"]
+	path = Autoware
+	url = https://github.com/Dokirobot-autonomous/Autoware.git
