@@ -51,6 +51,7 @@
 #include <tf/transform_broadcaster.h>
 #include <tf/transform_listener.h>
 #include <tf2_ros/static_transform_broadcaster.h>
+#include <nav_msgs/Path.h>
 #include <time.h>
 
 using namespace std;
@@ -70,6 +71,7 @@ struct kitti_player_options
     bool    imu;              // publish IMU sensor_msgs/Imu Message  message
     bool    grayscale;        // publish
     bool    color;            // publish
+    bool    groundtruth;      // publish
     bool    viewer;           // enable CV viewer
     bool    timestamps;       // use KITTI timestamps;
     bool    sendTransform;    // publish velodyne TF IMU 3DOF orientation wrt fixed frame
@@ -141,6 +143,59 @@ int publish_velodyne(ros::Publisher &pub, string infile, std_msgs::Header *heade
         return 1;
     }
 }
+
+int publish_groundtruth(ros::Publisher &pub_pose,ros::Publisher &pub_path, string pose_str, std_msgs::Header *header)
+{
+    geometry_msgs::PoseStamped pose;
+    static nav_msgs::Path path;
+
+    typedef boost::tokenizer<boost::char_separator<char> > tokenizer;
+    boost::char_separator<char> sep {" "};
+    tokenizer::iterator token_iterator;
+
+    double P[12];
+
+    //ROS_INFO_STREAM(pose_str);
+
+    // Parse string phase 1, tokenize it using Boost.
+    tokenizer tok(pose_str, sep);
+
+    // Move the iterator at the beginning of the tokenize vector and check for K/D/R/P matrices.
+    token_iterator = tok.begin();
+    unsigned char index = 0; //should be 12 at the end
+    ROS_DEBUG("Groundtruth");
+    for (token_iterator; token_iterator != tok.end(); token_iterator++)
+    {
+        //std::cout << *token_iterator << '\n';
+        P[index++] = boost::lexical_cast<double>(*token_iterator);
+//        ROS_INFO_STREAM( boost::lexical_cast<double>(*token_iterator)<<","<<P[index-1]);
+    }
+    //ROS_INFO("...ok");
+    tf::Matrix3x3 m(P[0],P[1],P[2],P[4],P[5],P[6],P[8],P[9],P[10]);
+    tf::Quaternion q;
+    m.getRotation(q);
+    //ROS_INFO("...ok");
+
+    pose.header.frame_id=path.header.frame_id="local_cs";
+    pose.header.stamp=path.header.stamp=header->stamp;
+    //ROS_INFO("...ok");
+
+    pose.pose.position.x=P[3];
+    pose.pose.position.y=P[7];
+    pose.pose.position.z=P[11];
+    pose.pose.orientation.x=q.x();
+    pose.pose.orientation.y=q.y();
+    pose.pose.orientation.z=q.z();
+    pose.pose.orientation.w=q.w();
+    path.poses.push_back(pose);
+    pub_pose.publish(pose);
+    pub_path.publish(path);
+
+    //ROS_INFO("...ok");
+
+    return 1;
+}
+
 
 /**
  * @brief getCalibration
@@ -517,6 +572,7 @@ int main(int argc, char **argv)
     ("imu       ,i",  po::value<bool>         (&options.imu)              ->default_value(0) ->implicit_value(1)   ,  "replay Imu data")
     ("grayscale ,G",  po::value<bool>         (&options.grayscale)        ->default_value(0) ->implicit_value(1)   ,  "replay Stereo Grayscale images")
     ("color     ,C",  po::value<bool>         (&options.color)            ->default_value(0) ->implicit_value(1)   ,  "replay Stereo Color images")
+    ("groundtruth,gt",po::value<bool>         (&options.groundtruth)      ->default_value(0) ->implicit_value(1)   ,  "replay groundtruth")
     ("viewer    ,V",  po::value<bool>         (&options.viewer)           ->default_value(0) ->implicit_value(1)   ,  "enable image viewer")
     ("timestamps,T",  po::value<bool>         (&options.timestamps)       ->default_value(0) ->implicit_value(1)   ,  "use KITTI timestamps")
     ("stereoDisp,s",  po::value<bool>         (&options.stereoDisp)       ->default_value(0) ->implicit_value(1)   ,  "use pre-calculated disparities")
@@ -614,6 +670,9 @@ int main(int argc, char **argv)
     string dir_velodyne_points  ;
     string full_filename_velodyne;
     string dir_timestamp_velodyne; //average of start&end (time of scan)
+    string dir_groundtruth;
+    string full_filename_groundtruth;
+    string dir_timestamp_groundtruth; //average of start&end (time of scan)
     string str_support;
     static tf2_ros::StaticTransformBroadcaster static_broadcaster;
     cv::Mat cv_image00;
@@ -661,7 +720,7 @@ int main(int argc, char **argv)
     ros::Publisher imu_pub           = node.advertise<sensor_msgs::Imu>                 ("oxts/imu", 1, true);
     ros::Publisher disp_pub          = node.advertise<stereo_msgs::DisparityImage>      ("preprocessed_disparity", 1, true);
 */
-    ros::Publisher map_pub,gps_pub,gps_pub_initial,imu_pub,disp_pub;
+    ros::Publisher map_pub,gps_pub,gps_pub_initial,imu_pub,disp_pub,groundpose_pub,groundpath_pub;
     if(options.velodyne){
         map_pub = node.advertise<pcl::PointCloud<pcl::PointXYZ> >  ("sensor/velodyne/cloud_euclidean", 1, true);
     }
@@ -675,6 +734,12 @@ int main(int argc, char **argv)
     if(options.viewDisparities){
         disp_pub          = node.advertise<stereo_msgs::DisparityImage>      ("preprocessed_disparity", 1, true);
     }
+    if(options.groundtruth){
+        groundpose_pub        = node.advertise<geometry_msgs::PoseStamped>      ("groundtruth_pose/pose",1,true);
+        groundpath_pub        = node.advertise<nav_msgs::Path>      ("groundtruth_pose/path",1,true);
+    }
+
+
 
     sensor_msgs::NavSatFix  ros_msgGpsFix;
     sensor_msgs::NavSatFix  ros_msgGpsFixInitial;   // This message contains the first reading of the file
@@ -730,6 +795,7 @@ int main(int argc, char **argv)
     dir_image04          = options.path;
     dir_oxts             = options.path;
     dir_velodyne_points  = options.path;
+    dir_groundtruth      = options.path;
     dir_image04          = options.path;
 
     (*(options.path.end() - 1) != '/' ? dir_root            = options.path + "/"                      : dir_root            = options.path);
@@ -740,6 +806,7 @@ int main(int argc, char **argv)
     (*(options.path.end() - 1) != '/' ? dir_image04         = options.path + "/disparities/"          : dir_image04         = options.path + "disparities/");
     (*(options.path.end() - 1) != '/' ? dir_oxts            = options.path + "/oxts/data/"            : dir_oxts            = options.path + "oxts/data/");
     (*(options.path.end() - 1) != '/' ? dir_velodyne_points = options.path + "/velodyne/" : dir_velodyne_points = options.path + "velodyne/");
+    (*(options.path.end() - 1) != '/' ? dir_groundtruth     = options.path + "/" : dir_velodyne_points = options.path + "");
 
     (*(options.path.end() - 1) != '/' ? dir_timestamp_image00    = options.path + "/"            : dir_timestamp_image00   = options.path + "");
     (*(options.path.end() - 1) != '/' ? dir_timestamp_image01    = options.path + "/"            : dir_timestamp_image01   = options.path + "");
@@ -747,6 +814,7 @@ int main(int argc, char **argv)
     (*(options.path.end() - 1) != '/' ? dir_timestamp_image03    = options.path + "/"            : dir_timestamp_image03   = options.path + "");
     (*(options.path.end() - 1) != '/' ? dir_timestamp_oxts       = options.path + "/oxts/"                : dir_timestamp_oxts      = options.path + "oxts/");
     (*(options.path.end() - 1) != '/' ? dir_timestamp_velodyne   = options.path + "/"     : dir_timestamp_velodyne  = options.path + "");
+    (*(options.path.end() - 1) != '/' ? dir_timestamp_groundtruth= options.path + "/"     : dir_timestamp_groundtruth= options.path + "");
 
     // Check all the directories
     if (
@@ -771,12 +839,15 @@ int main(int argc, char **argv)
         ||
         (options.velodyne       && (   (opendir(dir_velodyne_points.c_str())    == NULL)))
         ||
+        (options.groundtruth    && (   (opendir(dir_groundtruth.c_str())        == NULL)))
+        ||
         (options.timestamps     && (   (opendir(dir_timestamp_image00.c_str())      == NULL) ||
                                        (opendir(dir_timestamp_image01.c_str())      == NULL) ||
                                        (opendir(dir_timestamp_image02.c_str())      == NULL) ||
                                        (opendir(dir_timestamp_image03.c_str())      == NULL) ||
                                        (opendir(dir_timestamp_oxts.c_str())         == NULL) ||
-                                       (opendir(dir_timestamp_velodyne.c_str())     == NULL)))
+                                       (opendir(dir_timestamp_velodyne.c_str())         == NULL) ||
+                                       (opendir(dir_timestamp_groundtruth.c_str())     == NULL)))
 
     )
     {
@@ -1347,6 +1418,38 @@ int main(int argc, char **argv)
                 header_support.stamp = parseTime(str_support).stamp;
                 publish_velodyne(map_pub, full_filename_velodyne, &header_support);
             }
+        }
+
+        if(options.groundtruth || options.all_data)
+        {
+            // reading timesstamps
+            str_support = dir_timestamp_groundtruth + "times.txt";
+            ifstream timestamps(str_support.c_str());
+            if (!timestamps.is_open())
+            {
+                //ROS_ERROR_STREAM("Fail to open " << timestamps);
+                node.shutdown();
+                return -1;
+            }
+            // times.txtの一行の文字数*entries_playedにする
+            timestamps.seekg(13 * entries_played);
+            getline(timestamps, str_support);
+            header_support.stamp = parseTime(str_support).stamp;
+            // reading pose
+            full_filename_groundtruth=dir_groundtruth+"pose.txt";
+            ifstream poses(full_filename_groundtruth.c_str());
+            if (!poses.is_open())
+            {
+                //ROS_ERROR_STREAM("Fail to open " << timestamps);
+                node.shutdown();
+                return -1;
+            }
+            // times.txtの一行の文字数*entries_playedにする
+            for(int i=0;i<=entries_played;i++){
+                getline(poses, str_support);
+            }
+            publish_groundtruth(groundpose_pub,groundpath_pub,str_support,&header_support);
+
         }
 
         if (options.gps || options.all_data)
