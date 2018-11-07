@@ -4,6 +4,7 @@
     <generated>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <config projectName="Project" targetName="bond_generate_messages_nodejs" />
       <config projectName="Project" targetName="nav_msgs_generate_messages_py" />
       <config projectName="Project" targetName="roscpp_generate_messages_py" />
@@ -45,6 +46,9 @@
 =======
       <config projectName="Project" targetName="bond_generate_messages_nodejs" />
 >>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
+=======
+      <config projectName="Project" targetName="bond_generate_messages_nodejs" />
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
       <config projectName="Project" targetName="nav_msgs_generate_messages_py" />
       <config projectName="Project" targetName="roscpp_generate_messages_py" />
       <config projectName="Project" targetName="tf2_msgs_generate_messages_cpp" />
@@ -66,9 +70,12 @@
       <config projectName="Project" targetName="topic_tools_generate_messages_eus" />
       <config projectName="Project" targetName="sptam_node" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <config projectName="Project" targetName="roscpp_generate_messages_lisp" />
       <config projectName="Project" targetName="pcl_msgs_generate_messages_cpp" />
 >>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
+=======
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
 =======
 >>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
       <config projectName="Project" targetName="nav_msgs_generate_messages_eus" />
@@ -76,6 +83,7 @@
       <config projectName="Project" targetName="tf2_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="actionlib_generate_messages_py" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_nodejs" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -87,6 +95,8 @@
 >>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
 =======
 >>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
+=======
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
       <config projectName="Project" targetName="actionlib_generate_messages_eus" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="roscpp_generate_messages_nodejs" />
@@ -94,6 +104,10 @@
       <config projectName="Project" targetName="std_srvs_generate_messages_cpp" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_py" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      <config projectName="Project" targetName="kitti_player" />
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
 =======
       <config projectName="Project" targetName="kitti_player" />
 >>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
@@ -106,6 +120,9 @@
       <config projectName="Project" targetName="actionlib_msgs_generate_messages_py" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
 =======
 >>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
       <config projectName="Project" targetName="sensor_msgs_generate_messages_eus" />
@@ -115,6 +132,7 @@
       <config projectName="Project" targetName="topic_tools_generate_messages_py" />
       <config projectName="Project" targetName="actionlib_generate_messages_cpp" />
       <config projectName="Project" targetName="tf2_msgs_generate_messages_py" />
+<<<<<<< HEAD
 <<<<<<< HEAD
       <config projectName="Project" targetName="gmock_main" />
       <config projectName="Project" targetName="gtest_main" />
@@ -178,6 +196,9 @@
 =======
       <config projectName="Project" targetName="std_srvs_generate_messages_eus" />
 >>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
+=======
+      <config projectName="Project" targetName="std_srvs_generate_messages_eus" />
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
       <config projectName="Project" targetName="pcl_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="sensor_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="kitti_player_gencfg" />
@@ -207,6 +228,7 @@
       <config projectName="Project" targetName="std_srvs_generate_messages_py" />
       <config projectName="Project" targetName="bond_generate_messages_lisp" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <config projectName="Project" targetName="roscpp_generate_messages_eus" />
       <config projectName="Project" targetName="nav_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="topic_tools_generate_messages_nodejs" />
@@ -225,6 +247,8 @@
 =======
       <config projectName="Project" targetName="tf2_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="std_srvs_generate_messages_eus" />
+=======
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
 =======
 >>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
       <config projectName="Project" targetName="pcl_ros_gencfg" />
@@ -246,11 +270,14 @@
       <config projectName="Project" targetName="std_srvs_generate_messages_lisp" />
       <config projectName="Project" targetName="odom_to_imu" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <config projectName="Project" targetName="roscpp_generate_messages_nodejs" />
       <config projectName="Project" targetName="topic_tools_generate_messages_py" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_py" />
 >>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
 =======
+=======
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
       <config projectName="Project" targetName="tf_generate_messages_lisp" />
       <config projectName="Project" targetName="nodelet_generate_messages_nodejs" />
       <config projectName="Project" targetName="nav_msgs_generate_messages_nodejs" />
@@ -258,6 +285,9 @@
       <config projectName="Project" targetName="sptam_nodelet" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="tf_generate_messages_py" />
+<<<<<<< HEAD
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
+=======
 >>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
     </generated>
   </component>
@@ -271,6 +301,7 @@
 <<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/../../Autoware" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/lib/DBoW2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/DLib" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/DLoopDetector" beforeDir="false" />
@@ -307,6 +338,8 @@
       <change beforePath="$PROJECT_DIR$/../../withous_catkin/limo/.catkin_tools/profiles/limo_release/packages/viso2/devel_manifest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../withous_catkin/limo/.catkin_tools/profiles/limo_release/packages/viso2/devel_manifest.txt" afterDir="false" />
 =======
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
       <change beforePath="$PROJECT_DIR$/packages/kitti_player/src/kitti_player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/packages/kitti_player/src/kitti_player.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/kitti_player/src/kitti_player_ground_pose.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/sptam" beforeDir="false" afterPath="$PROJECT_DIR$/packages/sptam" afterDir="false" />
@@ -334,6 +367,7 @@
           <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="2" />
 <<<<<<< HEAD
+<<<<<<< HEAD
           <entry key="project.open.time.1" value="1" />
 <<<<<<< HEAD
           <entry key="project.open.time.3" value="1" />
@@ -352,15 +386,27 @@
           <entry key="project.open.time.9" value="1" />
           <entry key="project.opened" value="14" />
 >>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
+=======
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="6" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="14" />
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
 <<<<<<< HEAD
+<<<<<<< HEAD
           <entry key="cpp" value="15" />
 <<<<<<< HEAD
           <entry key="h" value="2" />
 =======
+=======
+          <entry key="cpp" value="16" />
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
 =======
           <entry key="cpp" value="16" />
 >>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
@@ -374,12 +420,17 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
 <<<<<<< HEAD
+<<<<<<< HEAD
           <entry key="CMakeLists.txt" value="1" />
 <<<<<<< HEAD
           <entry key="ObjectiveC" value="22" />
 =======
           <entry key="ObjectiveC" value="23" />
 >>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
+=======
+          <entry key="CMakeLists.txt" value="2" />
+          <entry key="ObjectiveC" value="24" />
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
 =======
           <entry key="CMakeLists.txt" value="2" />
           <entry key="ObjectiveC" value="24" />
@@ -391,10 +442,14 @@
         <counts>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           <entry key="cpp" value="2911" />
 =======
           <entry key="cpp" value="4092" />
 >>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
+=======
+          <entry key="cpp" value="5194" />
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
 =======
           <entry key="cpp" value="5194" />
 >>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
@@ -407,10 +462,14 @@
           <entry key="Doxygen file" value="1" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           <entry key="ObjectiveC" value="2910" />
 =======
           <entry key="ObjectiveC" value="4091" />
 >>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
+=======
+          <entry key="ObjectiveC" value="5193" />
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
 =======
           <entry key="ObjectiveC" value="5193" />
 >>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
@@ -423,6 +482,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/packages/kitti_player/src/kitti_player.cpp">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             <state relative-caret-position="285">
@@ -446,12 +506,20 @@
             <state relative-caret-position="468">
               <caret line="157" column="6" selection-start-line="157" selection-start-column="6" selection-end-line="157" selection-end-column="6" />
               <folding>
+=======
+            <state relative-caret-position="468">
+              <caret line="157" column="6" selection-start-line="157" selection-start-column="6" selection-end-line="157" selection-end-column="6" />
+              <folding>
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
                 <element signature="e#828#847#0" expanded="true" />
                 <element signature="e#4907#8415#0" />
                 <element signature="e#10324#11809#0" />
                 <element signature="e#11811#14173#0" />
                 <element signature="e#14219#14260#1" />
                 <element signature="e#14263#16555#0" />
+<<<<<<< HEAD
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
+=======
 >>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
               </folding>
             </state>
@@ -566,6 +634,19 @@
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="kitti_player" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="kitti_player" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="packages" type="462c0819:PsiDirectoryNode" />
               <item name="kitti_player" type="462c0819:PsiDirectoryNode" />
@@ -785,7 +866,11 @@
       </method>
     </configuration>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="gmock" CONFIG_NAME="Debug">
+=======
+    <configuration name="kitti_player" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="kitti_player" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="kitti_player">
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
 =======
     <configuration name="kitti_player" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="kitti_player" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="kitti_player">
 >>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
@@ -793,6 +878,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="gmock_main" CONFIG_NAME="Debug">
       <method v="2">
@@ -805,6 +891,9 @@
       </method>
     </configuration>
     <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
+=======
+    <configuration name="kitti_player_gencfg" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="kitti_player_gencfg" CONFIG_NAME="Debug">
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
 =======
     <configuration name="kitti_player_gencfg" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="kitti_player_gencfg" CONFIG_NAME="Debug">
 >>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
@@ -1290,19 +1379,26 @@
       <workItem from="1540897865285" duration="2266000" />
       <workItem from="1540900510421" duration="4959000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1540947275511" duration="1915000" />
 >>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
 =======
+=======
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
       <workItem from="1540947275511" duration="3491000" />
       <workItem from="1541401218730" duration="9000" />
       <workItem from="1541545175997" duration="129000" />
       <workItem from="1541545329972" duration="18000" />
       <workItem from="1541545369031" duration="4285000" />
+<<<<<<< HEAD
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
+=======
 >>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="22324000" />
@@ -1317,14 +1413,21 @@
 =======
     <option name="totallyTimeSpent" value="38364000" />
 >>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
+=======
+    <option name="totallyTimeSpent" value="38364000" />
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
   </component>
   <component name="ToolWindowManager">
     <frame x="1312" y="24" width="1248" height="1416" extended-state="4" />
     <editor active="true" />
     <layout>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28868553" />
 >>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.108153075" />
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
 =======
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.108153075" />
 >>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
@@ -1560,6 +1663,7 @@
           <folding>
             <element signature="e#0#19#0" expanded="true" />
 <<<<<<< HEAD
+<<<<<<< HEAD
             <element signature="e#1298#2073#0" />
             <element signature="e#2075#2805#0" />
             <element signature="e#2807#3475#0" />
@@ -1569,6 +1673,8 @@
             <element signature="e#4029#4456#0" />
 >>>>>>> 91b2148466956d0a76ba166a05851ff784cb6b76
 =======
+=======
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
           </folding>
         </state>
       </provider>
@@ -1584,6 +1690,9 @@
             <element signature="e#11811#14173#0" />
             <element signature="e#14219#14260#1" />
             <element signature="e#14263#16555#0" />
+<<<<<<< HEAD
+>>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
+=======
 >>>>>>> 2c98c3f3ea0969c450dda7e82ce97c7f28183219
           </folding>
         </state>
